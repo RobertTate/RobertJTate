@@ -1,34 +1,55 @@
 import React, { Component, Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
-import HelloWorld from './hello';
-import GoodbyeWorld from './goodbye';
-import Donate from './donate';
+import Downarrow from '../assets/angledoubledown.svg';
+import bobbyguitarla from '../assets/bobbyguitarla.jpg';
+import About from './About';
+import Projects from './Projects';
+import Resume from './Resume';
+import Links from './Links';
 
-import PrivateRoute from './auth/privateRoute';
-import Login from './auth/login';
-import Logout from './auth/logout';
-import AuthButton from './auth/authButton';
 
-class Navigation extends Component {
+
+
+class App extends Component {
+
 
     render() {
         return (
             <Router>
                 <Fragment>
-                    <Link to="/goodbye">Goodbye</Link>
-                    <AuthButton />
+                    <div className="hero-div">
+                        <h1 className="fade-in1 oswald-white">ROBERT TATE</h1>
+
+                        <h2 className="fade-in2">FULL STACK <br />DEVELOPMENT</h2>
+                    </div>
+                    <br />
+                    <div style={{ color: "white" }}>
+                        <br />
+                        <i className="fas fa-angle-double-down fa-4x fade-in3"></i>
+                    </div>
+                    <About />
+
+
+
+
+
+
+
+
                     <Switch>
-                        <Route exact path="/" component={HelloWorld} />
-                        <Route path="/login" component={Login} />
-                        <Route path="/logout" component={Logout} />
-                        <Route path="/donate" component={Donate} />
-                        <PrivateRoute path="/goodbye" component={GoodbyeWorld} />
+                        <Route exact path="/about" component={About} />
+                        <Route exact path="/projects" component={Projects} />
+                        <Route exact path="/resume" component={Resume} />
+                        <Route exact path="/links" component={Links} />
                     </Switch>
                 </Fragment>
             </Router>
-        )
+
+        );
     }
 }
 
-export default Navigation;
+
+
+export default App;

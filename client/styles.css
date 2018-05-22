@@ -1,78 +1,261 @@
-body {
-  text-align: center;
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+
+label {
+  color: #6b7c93;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+}
+
+button {
+  white-space: nowrap;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  background-color: #6772e5;
+  text-decoration: none;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  margin-top: 10px;
+}
+
+form {
+  margin: 2em 1em;
   padding: 2em;
+  background-color: lightgray;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, .11);
+  border-radius: 4px;
+}
+
+button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #7795f8;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, .10), 0 3px 6px rgba(0, 0, 0, .08);
+}
+
+.StripeElement {
+  align-content: center;
+  display: block;
+  margin: 1em auto;
+  max-width: 500px;
+  padding: 10px 14px;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px, rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border-radius: 4px;
+  background: white;
+}
+
+.StripeElement--focus {
+  box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px, rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+
+.StripeElement.PaymentRequestButton {
+  padding: 0;
 }
 
 .Checkout {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 800px;
-    box-sizing: border-box;
-    padding: 0 5px;
-  }
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
 
-  label {
-    color: #6b7c93;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-  }
 
-  button {
-    white-space: nowrap;
-    border: 0;
-    outline: 0;
-    display: inline-block;
-    height: 40px;
-    line-height: 40px;
-    padding: 0 14px;
-    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
-    color: #fff;
-    border-radius: 4px;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.025em;
-    background-color: #6772e5;
-    text-decoration: none;
-    -webkit-transition: all 150ms ease;
-    transition: all 150ms ease;
-    margin-top: 10px;
-  }
 
-  form {
-    margin: 2em 1em;
-    padding: 2em;
-    background-color: lightgray;
-    box-shadow: 0 4px 6px rgba(50, 50, 93, .11);
-    border-radius: 4px;
-  }
+html, body {
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+}
 
-  button:hover {
-    color: #fff;
-    cursor: pointer;
-    background-color: #7795f8;
-    transform: translateY(-1px);
-    box-shadow: 0 7px 14px rgba(50, 50, 93, .10), 0 3px 6px rgba(0, 0, 0, .08);
-  }
 
-  .StripeElement {
-    align-content: center;
-    display: block;
-    margin: 1em auto;
-    max-width: 500px;
-    padding: 10px 14px;
-    box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px, rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
-    border-radius: 4px;
-    background: white;
-  }
+body {
+  text-align: center;
+  background-color: #2a2a2a;
+  display: flex;
+  flex-direction: column;
+  
+}
 
-  .StripeElement--focus {
-    box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px, rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
-    -webkit-transition: all 150ms ease;
-    transition: all 150ms ease;
-  }
 
-  .StripeElement.PaymentRequestButton {
-    padding: 0;
+@media (max-width: 570px) {
+  .jc-center {
+    width: 25vw;
   }
+}
+
+#image1 {
+  display: flex;
+  justify-content: center;
+  
+}
+
+/* .jc-center {
+  text-align: center;
+  width: 2vw;
+} */
+
+/* .circle-image {
+  border-radius: 50%;
+  height: 28%;
+  width: 28%;
+} */
+
+/* .btn-info {
+  background-color: rgb(96, 105, 111);
+  border-color: rgb(96, 105, 111);
+  box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+  font-size: 1.2vw;
+} */
+
+
+.oswald-white {
+  font-family: 'Oswald', sans-serif;
+  font-size: 5em;
+  font-weight: 400;
+  letter-spacing: 10px;
+  color: white;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.oswald-black {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4em;
+  font-weight: 400;
+  letter-spacing: 10px;
+  color: #2a2a2a;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 2vw;
+  letter-spacing: 5px;
+  color: #2eb2ff;
+}
+
+/* .btn {
+  border-radius: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 9vw;
+  height: 2.5vw;
+
+} */
+
+
+.fade-in1 {
+  opacity: 0;
+  animation-name: fadein1secdelay;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes fadein1secdelay {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes fadein1secdelay {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+.fade-in2 {
+  opacity: 0;
+  animation-name: fadein2secdelay;
+  animation-duration: 1.5s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes fadein2secdelay {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes fadein2secdelay {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fade-in3 {
+  opacity: 0;
+  animation-name: fadein3secdelay;
+  animation-duration: 0.5s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes fadein3secdelay {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(30%);
+  }
+}
+
+.hero-div {
+  margin-top: 13em;
+}
+
+.about {
+  margin-top: 15em;
+  bottom: 100px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#about-me-title {
+  text-align: start;
+}
+
+.about-blurb {
+  height: 400px;
+  width: 400px;
+}
