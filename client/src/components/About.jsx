@@ -1,19 +1,8 @@
 import React, { Component, Fragment } from 'react';
 
 
-
-
 class About extends Component {
 
-    // componentDidMount() {
-    //     window.addEventListener("scroll", function (e) {
-
-    //         if (window.pageYOffset >= 20 && window.pageYOffset < 725) {
-    //             TweenLite.to(window, 1, { scrollTo: '#about-tab' })
-    //         }
-
-    //     })
-    // }
 
     render() {
         return (

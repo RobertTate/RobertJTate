@@ -37,8 +37,8 @@ body {
 }
 
 .hero-div {
-  margin-top: 9em;
-  margin-bottom: 15em;
+  /* margin-top: 12em; */
+  /* margin-bottom: 55em; */
 }
 
 .oswald-blue {
@@ -154,7 +154,8 @@ h2 {
   height: auto;
   display: flex;
   flex-direction: column;
-  position: relative;
+  position: fixed;
+  overflow: clip;
 }
 
 .projects {
@@ -162,6 +163,7 @@ h2 {
   display: flex;
   flex-direction: column;
   background-color: #2a2a2a;
+  
 }
 
 
@@ -169,21 +171,11 @@ h2 {
   /* background-image: url(./src/assets/bobbycabin.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
-  overflow: auto;
+  position: relative;  
   /* float: inherit; */
   width: 100%;
   height: auto;
 }
-
-
-
-
-#about-me-title {
-  text-align: start;
-  padding-left: 10px;
-}
-
 
 
 .oswald-resume {
@@ -208,27 +200,19 @@ h2 {
 
 .top-left {
   position: absolute;
-  top: 8px;
+  top: 300px;
   left: 16px;
 }
 
 .top-left2 {
   position: absolute;
-  top: 90px;
+  top: 400px;
   left: 16px;
 }
 
-
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-
 .center-left {
   position: absolute;
-  top: 35vh;
+  top: 450px;
   left: 16px;
 }
 
@@ -249,71 +233,6 @@ h2 {
   flex-direction: row;
   justify-content: space-evenly;
 }
-
-
-@media only screen and (max-width: 960px) {
-  .center-left {
-    top: 25vh;
-  }
-  .about-blurb {
-    width: 40vw;
-    font-size: 13px;
-  }
-  .bobby-cabin {  
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    overflow: auto;
-    /* float: inherit; */
-    width: 180%;
-    height: auto;
-    right: 350px;
-  }
-}
-
-
-@media only screen and (max-width: 500px) {
-  .title {
-    font-size: 3em;
-  }
-  h3 {
-    font-size: 1em;
-  }
-  .hero-div {
-    margin-top: 12em;
-    margin-bottom: 25em;
-  }
-  .center-left {
-    top: 150px;
-  }
-  .about-blurb {
-    width: 28vw;
-  }
-  .top-left2 {
-    top: 50px;
-  }
-  .bobby-cabin {  
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    overflow: auto;
-    /* float: inherit; */
-    width: 340%;
-    height: auto;
-    right: 600px;
-  }
-  .row {
-    display: flex;
-    flex-direction: column;
-  }
-  .icon-row {
-    font-size: 10px;
-  }
-  .icon-row2 {
-    font-size: 10px;
-  }
-}
-
 
 
 .text-white {
@@ -338,3 +257,78 @@ h2 {
   margin-left: 16px;
 }
 
+
+
+
+
+
+@media only screen and (max-width: 960px) {
+  .center-left {
+    top: 25vh;
+  }
+  .about-blurb {
+    width: 40vw;
+    font-size: 13px;
+  }
+  .bobby-cabin {  
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: auto;
+    /* float: inherit; */
+    width: 180%;
+    height: auto;
+    right: 350px;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+  .title {
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  .hero-div {
+    margin-top: 10em;
+    margin-bottom: 25em;
+  }
+  .center-left {
+    top: 150px;
+  }
+  .about-blurb {
+    width: 28vw;
+  }
+  .top-left {
+    top: 50px
+  }
+  .top-left2 {
+    top: 100px;
+  }
+  .bobby-cabin {  
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: auto;
+    /* float: inherit; */
+    width: 340%;
+    height: auto;
+    right: 600px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon-row {
+    font-size: 10px;
+  }
+  .icon-row2 {
+    font-size: 10px;
+  }
+}
