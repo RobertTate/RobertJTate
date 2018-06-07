@@ -5,10 +5,7 @@ import Languages from './Languages';
 import Projects from './Projects';
 import { SectionsContainer, Section } from 'react-fullpage';
 
-
-
-
-class App extends Component {
+class Test extends Component {
 
     render() {
 
@@ -34,7 +31,7 @@ class App extends Component {
                             <br />
                         </div>
                     </Section>
-                    {/* <Section>
+                    <Section>
                         <About />
                     </Section>
                     <Section>
@@ -42,7 +39,7 @@ class App extends Component {
                     </Section>
                     <Section>
                         <Projects />
-                    </Section> */}
+                    </Section>
                 </SectionsContainer>
             </div>
 
@@ -53,4 +50,4 @@ class App extends Component {
 
 
 
-export default App;
+export default Test;
