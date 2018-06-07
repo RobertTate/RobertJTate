@@ -1,3 +1,20 @@
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
 p {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -154,16 +171,19 @@ h2 {
   height: auto;
   display: flex;
   flex-direction: column;
-  position: fixed;
-  overflow: clip;
+  position: relative;
 }
 
-.projects {
-  margin-top: 1em;
+.languages {
   display: flex;
   flex-direction: column;
   background-color: #2a2a2a;
-  
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  background-color: #2eb2ff;
 }
 
 
@@ -200,19 +220,19 @@ h2 {
 
 .top-left {
   position: absolute;
-  top: 300px;
+  top: 100px;
   left: 16px;
 }
 
 .top-left2 {
   position: absolute;
-  top: 400px;
+  top: 180px;
   left: 16px;
 }
 
 .center-left {
   position: absolute;
-  top: 450px;
+  top: 250px;
   left: 16px;
 }
 
@@ -257,14 +277,33 @@ h2 {
   margin-left: 16px;
 }
 
+.project-text {
+  font-size: 16px;
+}
 
-
+.project-text-box {
+  width: 300px;
+}
 
 
 
 @media only screen and (max-width: 960px) {
+  .top-left {
+    position: absolute;
+    top: 100px;
+    left: 16px;
+  }
+  
+  .top-left2 {
+    position: absolute;
+    top: 180px;
+    left: 16px;
+  }
+  
   .center-left {
-    top: 25vh;
+    position: absolute;
+    top: 300px;
+    left: 16px;
   }
   .about-blurb {
     width: 40vw;
@@ -290,17 +329,14 @@ h2 {
 
 @media only screen and (max-width: 500px) {
   .title {
-    font-size: 3em;
+    font-size: 4em;
   }
   h3 {
     font-size: 1em;
   }
-  .hero-div {
-    margin-top: 10em;
-    margin-bottom: 25em;
-  }
+
   .center-left {
-    top: 150px;
+    top: 180px;
   }
   .about-blurb {
     width: 28vw;
@@ -309,7 +345,7 @@ h2 {
     top: 50px
   }
   .top-left2 {
-    top: 100px;
+    top: 120px;
   }
   .bobby-cabin {  
     background-size: cover;
@@ -317,13 +353,14 @@ h2 {
     position: relative;
     overflow: auto;
     /* float: inherit; */
-    width: 340%;
+    width: 350%;
     height: auto;
     right: 600px;
   }
   .row {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
   }
   .icon-row {
     font-size: 10px;
@@ -331,4 +368,27 @@ h2 {
   .icon-row2 {
     font-size: 10px;
   }
+  .github-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .smallscreenfont {
+    font-size: 14px;
+  }
+  p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .project-text {
+    font-size: 12px;
+  }
+  .project-text-box {
+    width: 300px;
+  }
+  .project-row {
+    align-items: center;
+  }
+
 }
