@@ -3,7 +3,7 @@ import React, { Component, Fragment } from 'react';
 import About from './About';
 import Languages from './Languages';
 import Projects from './Projects';
-import { SectionsContainer, Section, Header, Footer } from 'react-fullpage';
+import { SectionsContainer, Section } from 'react-fullpage';
 
 
 
@@ -34,7 +34,7 @@ class App extends Component {
                             <br />
                         </div>
                     </Section>
-                    <Section>
+                    {/* <Section>
                         <About />
                     </Section>
                     <Section>
@@ -42,7 +42,7 @@ class App extends Component {
                     </Section>
                     <Section>
                         <Projects />
-                    </Section>
+                    </Section> */}
                 </SectionsContainer>
             </div>
 
