@@ -1,11 +1,8 @@
 import React, { Component, Fragment } from 'react';
-// import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 import About from './About';
 import Languages from './Languages';
 import Projects from './Projects';
-import Resume from './Resume';
-import Links from './Links';
 import { SectionsContainer, Section, Header, Footer } from 'react-fullpage';
 
 
@@ -35,9 +32,6 @@ class App extends Component {
                                 <h2 className="fade-in2">FULL STACK <br />DEVELOPMENT</h2>
                             </div>
                             <br />
-                            {/* <div style={{ color: "white" }}>
-                                <i className="fas fa-angle-double-down fa-4x fade-in3"></i>
-                            </div> */}
                         </div>
                     </Section>
                     <Section>

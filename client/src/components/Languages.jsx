@@ -50,7 +50,7 @@ const Languages = (props) => {
                                 <li className="text-align-start text-white margin-left"><p className="smallscreenfont">Node.js and Express</p></li>
                                 <li className="text-align-start text-white margin-left"><p className="smallscreenfont">jQuery</p></li>
                                 <li className="text-align-start text-white margin-left"><p className="smallscreenfont">Bootstrap and Materialize</p></li>
-                                <a href={Resume} target='_blank'><h3 className="oswald-resume text-align-start">FULL RESUME </h3></a>
+                                <a href={Resume} target='_blank'><h3 className="oswald-resume text-align-start">VIEW RESUME </h3></a>
                             </ul>
                         </div>
                     </div>

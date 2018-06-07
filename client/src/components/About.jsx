@@ -13,7 +13,7 @@ class About extends Component {
                         <h1 className="oswald-blue title" >I CODE</h1>
                     </div>
                     <h4 className="text-black top-left2 lato">(sometimes outside)</h4>
-                    <p className="about-blurb center-left">I am a professional developer who wants to help improve people's lives with code. Driven by the power of "attaboy's", when I work on a project,<strong> I do it with the intent to impress.</strong></p>
+                    <p className="about-blurb center-left">I am a developer who is seeking to make life better with code. I have always been driven by creativity in one form or another, and as a developer, I get to take that drive further in ways both subtle and obvious.</p>
 
 
                 </div>
