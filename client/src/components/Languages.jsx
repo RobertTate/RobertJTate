@@ -6,23 +6,23 @@ const Languages = (props) => {
 
     return (
         <Fragment>
-            <div className="languages slide">
-                <div id="project-tab">
+            <div className="languages">
+                <div className="center-languages">
                     <div className="row">
                         <h1 className="oswald-white title">I've Used</h1>
                     </div>
                     <br />
                     <div className="icon-row text-blue">
-                        <i className="fab fa-html5 fa-2x"></i>
-                        <i className="fab fa-js-square fa-2x"></i>
-                        <i className="fab fa-node-js fa-2x"></i>
-                        <i className="fas fa-database fa-2x"></i>
+                        <i className="fab fa-html5 fa-3x"></i>
+                        <i className="fab fa-js-square fa-3x"></i>
+                        <i className="fab fa-node-js fa-3x"></i>
+                        <i className="fas fa-database fa-3x"></i>
                     </div>
                     <br />
                     <div className="icon-row2 text-blue">
-                        <i className="fab fa-css3-alt fa-2x"></i>
-                        <i className="fab fa-react fa-2x"></i>
-                        <i className="fas fa-cloud fa-2x"></i>
+                        <i className="fab fa-css3-alt fa-3x"></i>
+                        <i className="fab fa-react fa-3x"></i>
+                        <i className="fas fa-cloud fa-3x"></i>
                     </div>
 
                     <div className="row">

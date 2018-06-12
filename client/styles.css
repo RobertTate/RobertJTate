@@ -177,6 +177,7 @@ h2 {
 .languages {
   display: flex;
   flex-direction: column;
+  height: 100%;
   background-color: #2a2a2a;
 }
 
@@ -184,6 +185,20 @@ h2 {
   display: flex;
   flex-direction: column;
   background-color: #2eb2ff;
+  height: 100%;
+}
+
+.center-project {
+  position: absolute;
+  width: 100%;
+  top: 87%;
+  transform: translateY(-50%);
+}
+.center-languages {
+  position: absolute;
+  width: 100%;
+  top: 64%;
+  transform: translateY(-50%);
 }
 
 
@@ -276,6 +291,7 @@ h2 {
 
 .project-text {
   font-size: 16px;
+  text-align: justify;
 }
 
 .project-text-box {

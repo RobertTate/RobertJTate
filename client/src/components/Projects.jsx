@@ -4,8 +4,8 @@ const Projects = (props) => {
 
     return (
         <Fragment>
-            <div className="projects slide">
-                <div id="project-tab">
+            <div className="projects">
+                <div className="center-project">
                     <div className="row">
                         <h1 className="oswald-white title">PROJECTS</h1>
                     </div>
@@ -19,8 +19,8 @@ const Projects = (props) => {
                             <p className="project-text">Built with <strong>React</strong> (much like this website), I created a personal blog site that would let users write and modify blog posts. All blog content is held in a <strong>MySQL</strong> database, and retrieved with API requests sent to the server, all deployed using <strong>Heroku</strong>. I used <strong>Passport.js</strong> to create secure logins, protecting certain API routes until a user is logged in. Passwords were hashed and salted using <strong>Bcrypt</strong>. I also implemented <strong>MailGun</strong> for email submission and <strong>Stripe</strong> for payment processing (a test setup to take "donations"). And of course, a little <strong>Bootstrap</strong> to finish it off.</p>
                         </div>
                         <div className="project-text-box">
-                            <a target="_blank"><h1 className="oswald-white">Jelly Drop</h1></a>
-                            <p className="project-text"><i>(Link to more info coming soon....)</i> Built with <strong>React Native</strong>, I worked with a team of two others to develop a mobile app called Jelly Drop. The premise is that you can drop "jellies" on a map, and other people can pick them up. You get points for picking up other peoples jellies, and it also gives you more jellies to drop when you run out of your own. This project uses a number of libraries specific to mobile development, including (but not limited to)<strong> Native-Base, React-Native-Maps, and React-Navigation.</strong> The project runs <strong>Node.js</strong> on the backend, and utilizes <strong>MySQL</strong> to relate jellies to players, and players to specific game instances.</p>
+                            <a href='https://github.com/RobertTate/JellyDropServerSide' target="_blank"><h1 className="oswald-white">Jelly Drop</h1></a>
+                            <p className="project-text">Built with <strong>React Native</strong>, I worked with a team of two others to develop a mobile app called Jelly Drop. The premise is that you can drop "jellies" on a map, and other people can pick them up. You get points for picking up other peoples jellies, and it also gives you more jellies to drop when you run out of your own. This project uses a number of libraries specific to mobile development, including (but not limited to)<strong> Native-Base, React-Native-Maps, and React-Navigation.</strong> The project runs <strong>Node.js</strong> on the backend, and utilizes <strong>MySQL</strong> to relate jellies to players, and players to specific game instances.</p>
                         </div>
                         <div className="project-text-box">
                             <a href='https://roberttate.github.io/' target="_blank"><h1 className="oswald-white">Just My Type</h1></a>
