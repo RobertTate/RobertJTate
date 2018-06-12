@@ -168,7 +168,7 @@ h2 {
 
 .about {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -187,15 +187,12 @@ h2 {
 }
 
 
-.bobby-cabin {  
-  /* background-image: url(./src/assets/bobbycabin.jpg); */
+.about-section {
+  background-image: url(./src/assets/bobbycabin.jpg);
   background-size: cover;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
-  position: relative;  
-  /* float: inherit; */
-  width: 100%;
-  height: auto;
-}
+  }
 
 
 .oswald-resume {
