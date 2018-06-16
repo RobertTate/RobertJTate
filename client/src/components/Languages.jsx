@@ -9,7 +9,7 @@ const Languages = (props) => {
             <div className="languages">
                 <div className="center-languages">
                     <div className="row">
-                        <h1 className="oswald-white title">I've Used</h1>
+                        <h1 className="oswald-white title language-title">I've Used</h1>
                     </div>
                     <br />
                     <div className="icon-row text-blue">

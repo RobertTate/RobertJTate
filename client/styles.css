@@ -216,7 +216,6 @@ h2 {
   font-size: 40px;
   letter-spacing: 10px;
   color: #2eb2ff;
-  margin-top: 20px;
 
 } 
 
@@ -405,10 +404,13 @@ h2 {
   .title {
     font-size: 4em;
   }
-  h3 {
-    font-size: 1em;
+  .language-title {
+    font-size: 3em;
   }
-
+  .oswald-resume {
+    font-size: 25px;
+    margin-top: 0px;
+  }
   .center-left {
     top: 180px;
   }
@@ -433,10 +435,10 @@ h2 {
     justify-content: flex-start;
   }
   .icon-row {
-    font-size: 10px;
+    font-size: 6px;
   }
   .icon-row2 {
-    font-size: 10px;
+    font-size: 6px;
   }
   .github-row {
     display: flex;
@@ -445,11 +447,9 @@ h2 {
     align-items: center;
   }
   .smallscreenfont {
-    font-size: 14px;
-  }
-  p {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
   .project-text {
     font-size: 12px;
@@ -483,12 +483,6 @@ h2 {
 }
 
 @media only screen and (max-width: 400px) {
-  .title {
-    font-size: 4em;
-  }
-  h3 {
-    font-size: 1em;
-  }
 
   .center-left {
     top: 180px;
@@ -510,24 +504,11 @@ h2 {
     flex-direction: column;
     justify-content: flex-start;
   }
-  .icon-row {
-    font-size: 10px;
-  }
-  .icon-row2 {
-    font-size: 10px;
-  }
   .github-row {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  }
-  .smallscreenfont {
-    font-size: 14px;
-  }
-  p {
-    margin-top: 5px;
-    margin-bottom: 5px;
   }
   .project-text {
     font-size: 12px;

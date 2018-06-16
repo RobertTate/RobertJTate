@@ -10,7 +10,7 @@ const Projects = (props) => {
                         <h1 className="oswald-white title">PROJECTS</h1>
                     </div>
                     <a href="https://github.com/RobertTate" target="_blank"><div className="github-row" style={{ color: "white" }}>
-                        <span className="text-white raleway">Check Out </span><i className="fab fa-github fa-4x"></i><span className="text-white raleway"> My Repo's</span>
+                        <span className="text-white raleway">Check Out  </span><i className="fab fa-github fa-4x"></i><span className="text-white raleway">  My Repo's</span>
                     </div></a>
                     <br />
                     <div className="row2 project-row">
