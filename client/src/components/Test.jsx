@@ -3,6 +3,7 @@ import React, { Component, Fragment } from 'react';
 import About from './About';
 import Languages from './Languages';
 import Projects from './Projects';
+import Contact from './Contact';
 import { SectionsContainer, Section } from 'react-fullpage';
 
 class Test extends Component {
@@ -11,7 +12,7 @@ class Test extends Component {
 
         let options = {
             sectionClassName: 'section',
-            anchors: ['Home', 'About', 'Languages', 'Projects'],
+            anchors: ['Home', 'About', 'Languages', 'Projects', 'Contact'],
             scrollBar: false,
             navigation: true,
             verticalAlign: false,
@@ -39,6 +40,9 @@ class Test extends Component {
                     </Section>
                     <Section>
                         <Projects />
+                    </Section>
+                    <Section>
+                        <Contact />
                     </Section>
                 </SectionsContainer>
             </div>

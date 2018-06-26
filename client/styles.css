@@ -189,19 +189,32 @@ h2 {
   height: 100%;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: #2a2a2a;
+  height: 100%;
+}
+
 .center-project {
   position: absolute;
   width: 100%;
-  top: 87%;
+  top: 70%;
   transform: translateY(-50%);
 }
 .center-languages {
   position: absolute;
   width: 100%;
-  top: 62.5%;
+  top: 50%;
   transform: translateY(-50%);
 }
 
+.center-contact {
+  position: absolute;
+  width: 100%;
+  top: 89.5%;
+  transform: translateY(-50%);
+}
 
 .about-section {
   background-image: url(./src/assets/bobbycabin.jpg);
@@ -316,13 +329,13 @@ h2 {
   .center-project {
     position: absolute;
     width: 100%;
-    top: 87%;
+    top: 70%;
     transform: translateY(-50%);
   }
   .center-languages {
     position: absolute;
     width: 100%;
-    top: 62.5%;
+    top: 49.5%;
     transform: translateY(-50%);
   }
   .project-text-box {
@@ -359,13 +372,13 @@ h2 {
   .center-project {
     position: absolute;
     width: 100%;
-    top: 87%;
+    top: 69.5%;
     transform: translateY(-50%);
   }
   .center-languages {
     position: absolute;
     width: 100%;
-    top: 62.5%;
+    top: 50.5%;
     transform: translateY(-50%);
   }
   .project-text-box {
@@ -415,7 +428,7 @@ h2 {
     top: 180px;
   }
   .about-blurb {
-    width: 28vw;
+    width: 34vw;
   }
   .top-left {
     top: 50px
@@ -464,13 +477,13 @@ h2 {
   .center-project {
     position: absolute;
     width: 100%;
-    top: 87%;
+    top: 70%;
     transform: translateY(-50%);
   }
   .center-languages {
     position: absolute;
     width: 100%;
-    top: 62.5%;
+    top: 50%;
     transform: translateY(-50%);
   }
   .mobile-text {
@@ -479,6 +492,9 @@ h2 {
   }
   .Navigation {
     display: none;
+  }
+  .email {
+    font-size: 14px;
   }
 }
 
@@ -490,7 +506,7 @@ h2 {
     padding: 5px;
   }
   .about-blurb {
-    width: 37vw;
+    width: 40vw;
   }
   .top-left {
     top: 50px
@@ -522,13 +538,13 @@ h2 {
   .center-project {
     position: absolute;
     width: 100%;
-    top: 88%;
+    top: 69.5%;
     transform: translateY(-50%);
   }
   .center-languages {
     position: absolute;
     width: 100%;
-    top: 63%;
+    top: 50%;
     transform: translateY(-50%);
   }
   .mobile-text {
