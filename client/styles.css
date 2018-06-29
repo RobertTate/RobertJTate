@@ -336,12 +336,6 @@ h2 {
     top: 70%;
     transform: translateY(-50%);
   }
-  .center-languages {
-    position: absolute;
-    width: 100%;
-    top: 49.5%;
-    transform: translateY(-50%);
-  }
   .project-text-box {
     width: 270px;
   }
@@ -377,12 +371,6 @@ h2 {
     position: absolute;
     width: 100%;
     top: 69.5%;
-    transform: translateY(-50%);
-  }
-  .center-languages {
-    position: absolute;
-    width: 100%;
-    top: 50.5%;
     transform: translateY(-50%);
   }
   .project-text-box {
