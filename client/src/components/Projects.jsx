@@ -7,13 +7,13 @@ const Projects = (props) => {
             <div className="projects">
                 <div className="center-project">
                     <div className="row2">
-                        <h1 className="oswald-white title">PROJECTS</h1>
+                        <h1 className="oswald-white title fade-in1">PROJECTS</h1>
                     </div>
-                    <a href="https://github.com/RobertTate" target="_blank"><div className="github-row" style={{ color: "white" }}>
+                    <a href="https://github.com/RobertTate" target="_blank"><div className="github-row fade-in2" style={{ color: "white" }}>
                         <span className="text-white raleway">Check Out  </span><i className="fab fa-github fa-4x"></i><span className="text-white raleway">  My Repo's</span>
                     </div></a>
                     <br />
-                    <div className="row2 project-row">
+                    <div className="row2 project-row fade-in3">
                         <div className="project-text-box">
                             <a href='https://guarded-garden-27785.herokuapp.com/' target="_blank"><h1 className="oswald-white">Blog Page</h1></a>
                             <p className="project-text">Built with <strong>React</strong>, I built a blog site that would let users write and modify blog posts. Blog content is held in <strong>MySQL</strong>, and retrieved with API requests. I used <strong>Passport.js</strong> to create secure logins, protecting certain API routes until a user is logged in. Passwords are hashed and salted using <strong>Bcrypt</strong>. I also implemented <strong>MailGun</strong> for email submission and <strong>Stripe</strong> for payment processing (a test setup to take "donations"). And finally, a little <strong>Bootstrap</strong>.</p>

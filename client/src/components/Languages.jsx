@@ -9,23 +9,23 @@ const Languages = (props) => {
             <div className="languages">
                 <div className="center-languages">
                     <div className="row">
-                        <h1 className="oswald-white title language-title">I've Used</h1>
+                        <h1 className="oswald-white title language-title fade-in1">I've Used</h1>
                     </div>
                     <br />
-                    <div className="icon-row text-blue">
+                    <div className="icon-row text-blue fade-in2">
                         <i className="fab fa-html5 fa-3x"></i>
                         <i className="fab fa-js-square fa-3x"></i>
                         <i className="fab fa-node-js fa-3x"></i>
                         <i className="fas fa-database fa-3x"></i>
                     </div>
                     <br />
-                    <div className="icon-row2 text-blue">
+                    <div className="icon-row2 text-blue fade-in2">
                         <i className="fab fa-css3-alt fa-3x"></i>
                         <i className="fab fa-react fa-3x"></i>
                         <i className="fas fa-cloud fa-3x"></i>
                     </div>
 
-                    <div className="row">
+                    <div className="row fade-in3">
                         <div>
                             <ul>
                                 <h1 className="oswald-blue text-align-start smallscreenfont">LANGUAGES</h1>
