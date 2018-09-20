@@ -228,7 +228,7 @@ h2 {
 }
 
 .about-section {
-  background-image: url(./src/assets/bobbycabin.jpg);
+  background-image: url(./src/assets/bobbycabin-compressed.jpg);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
